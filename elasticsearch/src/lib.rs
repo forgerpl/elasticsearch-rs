@@ -296,10 +296,10 @@
 //!
 
 // also test examples in README
-#![feature(external_doc)]
-#[doc(include="../../README.md")]
-#[cfg(doctest)]
-type _DoctestReadme = ();
+// #![feature(external_doc)]
+// #[doc(include="../../README.md")]
+// #[cfg(doctest)]
+// type _DoctestReadme = ();
 
 // TODO: turn on before releasing :) Will require adding documentation within all REST API specs
 //#![deny(missing_docs)]
